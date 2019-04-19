@@ -7,7 +7,7 @@ def reformat_languages(languages)
       if (!new_language_hash[language])
         new_language_hash[language] = characteristics
       end
-      #binding.pry
+      binding.pry
       if (!new_language_hash[language][:style])
         new_language_hash[language][:style] = []
       end
